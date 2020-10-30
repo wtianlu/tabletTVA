@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{57D492E1-474E-EB0E-0A70-EE68DEDF21EC}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Main_screen_script.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Main_screen_script_190724.cs" Line="12" Column="39" />
+      <File FileName="Assets/Scripts/Main_screen_script.cs" Line="249" Column="150" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
