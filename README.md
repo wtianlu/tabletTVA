@@ -8,9 +8,13 @@ This repository contains the scripts and datasets needed to reproduce the TVA re
 * Paradigm
   * CombiTVA_Asus:  Desktop paradigm
   * CombiTVA_Nexus: Tablet paradigm
-* Code
+* Analysis code
   * Functions: scripts for loading and pre-processing the raw data and quality checking, as well as visualisations and statistical analysis
   * 2020_ms_revision: main script creating results and visualisations for the manuscript
+* Data_2020ms
+  * tablettva_rawdata: raw accuracy data with added data cleaning columns 
+  * tablettva_fit_fixed: LibTVA fitted data
+  * tablettiva_fit_splitA and tablettiva_fit_splitB: LibTVA fitted data for split-half correlations
 
 ## Software requirements
 The Matlab scripts have been tested in Matlab 2016b. 
