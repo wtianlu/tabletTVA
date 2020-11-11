@@ -17,5 +17,10 @@ This repository contains the scripts and datasets needed to reproduce the TVA re
   * tablettiva_fit_splitA and tablettiva_fit_splitB: LibTVA fitted data for split-half correlations
 
 ## Software requirements
-The Matlab scripts have been tested in Matlab 2016b. 
-The experimental paradigms have been written and tested in Unity version 2019.1.11f1. 
+The Matlab scripts have been tested in Matlab 2016b. The LibTVA toolbox can be downloaded from: http://www.machlea.com/mads/libtva.html
+The experimental paradigms have been written and tested in Unity version 2019.1.11f1. The Tablet paradigm was performed on Android 5.1.
+
+## Citation
+For usage of the scripts and the associated manuscript, please use the following:
+
+Tianlu Wang, Hella Thielen, Erik De Preter, Signe A. Vangkilde, Céline R. Gillebert (under review). Encouraging digital technology in neuropsychology: The Theory of Visual Attention on tablet devices.
