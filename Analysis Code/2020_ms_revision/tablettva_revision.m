@@ -257,6 +257,7 @@ for i = 1:length(vis.parcols)
     clear s p R P RLO RUP; CCCrho = [0 0];
     for j = 1:2
         tmp = [d.fit{d.fit.sesmark==cols(j,1),vis.parcols(i)},d.fit{d.fit.sesmark==cols(j,2),vis.parcols(i)}];
+        if i == 5, tmp = tmp./(tmp+1); end
         s{j} = scatter(tmp(:,1),tmp(:,2),'.');
         p{j} = plot([min(tmp(:,1)); max(tmp(:,1))],[min(tmp(:,2)); max(tmp(:,2))],'.-','color',s{j}.CData);
         [R{j},P{j},RLO{j},RUP{j}]=corrcoef(tmp(:,1),tmp(:,2));

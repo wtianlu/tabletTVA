@@ -1,0 +1,6 @@
+
+## Citation
+
+For usage of the scripts and the associated manuscript, please use the following:
+
+Tianlu Wang, Hella Thielen, Erik De Preter, Signe Vangkilde, Céline R. Gillebert (2020). Encouraging digital technology in neuropsychology: The Theory of Visual Attention on tablet devices. Archives of Clinical Neuropsychology (under revision).
