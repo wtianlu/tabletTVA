@@ -7,6 +7,7 @@
 % PURPOSE:      Analyze data and visualize results
 % -------------------------------------------------------------------------
 % Revision:     ver. 2020.10.21
+% Last edited:  2020.12.11 - fixed visualisation Figure 3
 % -------------------------------------------------------------------------
 % FUNCTIONS:    visualiseTVA.m
 %               calculate_rmANOVA.m
@@ -139,6 +140,11 @@ end
 N = height(d.incl);
 fprintf('\nReady!\n\n')
 
+%% Generate figure 2
+
+visualiseTVA(6,1,d,vis)
+% print('-dtiff','-r500','Figure2_TVArawdata')
+
 % =========================================================================
 %% Analyze raw response accuracy
 % =========================================================================
@@ -239,6 +245,7 @@ retest   = zeros(5,2);
 parallel = zeros(5,2);
 tvatitles = {'VSTM capacity','perceptual threshold','processing speed',...
              'attentional selectivity','spatial attention bias'};
+labels = strsplit('A B C D E');
 
 for istr = 0:1 % 1: test-retest; 0: parallel-version
     
@@ -286,6 +293,8 @@ for i = 1:length(vis.parcols)
     xlim([min([xlim ylim]) max([xlim ylim])]);
     ylim([min([xlim ylim]) max([xlim ylim])])
     title(tvatitles{i})
+    text(min(xlim)-diff(xlim)/6,max(ylim)+diff(ylim)/18,labels{i},...
+        'HorizontalAlignment', 'right','VerticalAlignment','bottom','FontWeight','bold','FontSize',13);
     if istr
         xlabel('session 1');ylabel('session 2');
         l = legend([p{1},p{2}],'Desktop','Tablet','location','southeast');
@@ -299,7 +308,7 @@ for i = 1:length(vis.parcols)
     plot(xlim,ylim,':','color',ones(1,3)*.5)
 end
 end
-
+% print('-dtiff','-r500','Figure3_TVApara_scatter')
 
 % -------------------------------------------------------------------------
 % INTERNAL RELIABILITY
