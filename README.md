@@ -23,4 +23,4 @@ The experimental paradigms have been written and tested in Unity version 2019.1.
 ## Citation
 For usage of the scripts and the associated manuscript, please use the following:
 
-Tianlu Wang, Hella Thielen, Erik De Preter, Signe A. Vangkilde, Céline R. Gillebert (under review). Encouraging digital technology in neuropsychology: The Theory of Visual Attention on tablet devices.
+Tianlu Wang, Hella Thielen, Erik De Preter, Signe Vangkilde, Céline R Gillebert, Encouraging Digital Technology in Neuropsychology: The Theory of Visual Attention on Tablet Devices, Archives of Clinical Neuropsychology, 2021;, acab007, https://doi.org/10.1093/arclin/acab007
